@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books Landing Page</title>
+  <link rel="stylesheet" href="lp.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Discover Your Next Great Read</h1>
+      <p>Explore a world of books curated just for you</p>
+      <a href="#featured-books" class="cta-button">Browse Books</a>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#featured-books">Featured Books</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="featured-books">
+    <h2>Featured Books</h2>
+    <div class="book-cards">
+      <div class="card">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/0*tQ0CdoTItIGpDjLG" alt="Book 1">
+        <h3>Ikigai: The Japanese Secret to a Long and Happy Life</h3>
+        <p>Author:Francesc Miralles and Hector Garcia </p>
+        <a href="#" class="cta-button">Read Now</a>
+      </div>
+      <div class="card">
+        <img src="https://www.adorebooks.in/wp-content/uploads/2022/02/Untitled-design-2022-06-03T001336.634.jpg" alt="Book 2">
+        <h3>The Time Machine</h3>
+        <p>Author:H.G.Well</p>
+        <a href="#" class="cta-button">Read Now</a>
+      </div>
+      <div class="card">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feee7abff-12fd-46ef-9996-ca839d33d1c5_707x943.jpeg" alt="Book 3">
+        <h3>The Psychology of Money</h3>
+        <p>Author:Morgan Housel</p>
+        <a href="#" class="cta-button">Read Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-cards">
+      <div class="card">
+        <p>"An amazing selection of books. Highly recommended!"</p>
+        <p>- Book Lover</p>
+      </div>
+      <div class="card">
+        <p>"A great place to find your next favorite book."</p>
+        <p>- Avid Reader</p>
+      </div>
+      <div class="card">
+        <p>"Excellent service and fantastic book recommendations."</p>
+        <p>- Happy Customer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <p>$10/month</p>
+        <p>Access to basic collection.</p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+      </div>
+      <div class="card">
+        <h3>Standard</h3>
+        <p>$20/month</p>
+        <p>Access to standard collection.</p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p>$30/month</p>
+        <p>Access to all collections.</p>
+        <a href="#" class="cta-button">Subscribe Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What is the subscription fee?</h3>
+      <p>We offer three subscription plans: Basic ($10/month), Standard ($20/month), and Premium ($30/month).</p>
+    </div>
+    <div class="faq-item">
+      <h3>How can I access the books?</h3>
+      <p>Books can be accessed through our website or mobile app once you subscribe to one of our plans.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I cancel my subscription?</h3>
+      <p>Yes, you can cancel your subscription at any time from your account settings.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2024 Book Haven
+  </footer>
+
+  <script src="lp.js"></script>
+</body>
+</html>
+
